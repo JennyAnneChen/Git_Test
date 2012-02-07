@@ -33,7 +33,6 @@
 		BA11574E14E1342F003346BD /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 		BA11574F14E1342F003346BD /* Test.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Test.1; sourceTree = "<group>"; };
 		BA11576814E13A67003346BD /* Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol.h; sourceTree = "<group>"; };
-		BA11576914E13EDB003346BD /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		BA1681CB14E136F300D35123 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		BA1681CC14E136F300D35123 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,7 +83,6 @@
 				BA1681CB14E136F300D35123 /* MyClass.h */,
 				BA1681CC14E136F300D35123 /* MyClass.m */,
 				BA11576814E13A67003346BD /* Protocol.h */,
-				BA11576914E13EDB003346BD /* File */,
 			);
 			path = Test;
 			sourceTree = "<group>";
