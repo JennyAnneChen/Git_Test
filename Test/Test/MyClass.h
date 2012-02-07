@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface MyClass : NSObject
-int a;
+
 @end
