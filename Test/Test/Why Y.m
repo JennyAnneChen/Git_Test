@@ -15,7 +15,7 @@
     self = [super initWithWindow:window];
     if (self) {
         // Initialization code here.
-        NSLog(@"Y");
+        NSLog(@"Fish");
     }
     
     return self;
