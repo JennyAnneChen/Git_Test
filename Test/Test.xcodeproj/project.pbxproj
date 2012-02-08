@@ -90,6 +90,12 @@
 				BA1681CC14E136F300D35123 /* MyClass.m */,
 				BA11576814E13A67003346BD /* Protocol.h */,
 				BA1681D914E13DF800D35123 /* Property List.plist */,
+				BAB2EB4614E2104A0074C5C9 /* MyClass2.h */,
+				BAB2EB4A14E210630074C5C9 /* MyClass3.h */,
+				BAB2EB4D14E210730074C5C9 /* MyClass5.h */,
+				BAB2EB4E14E210730074C5C9 /* MyClass5.m */,
+				BAB2EB4B14E210630074C5C9 /* MyClass3.m */,
+				BAB2EB4714E2104A0074C5C9 /* MyClass2.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
