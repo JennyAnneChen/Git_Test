@@ -15,6 +15,7 @@
     self = [super init];
     if (self) {
         // Initialization code here.
+        NSLog(@"MyClass");
     }
     
     return self;
