@@ -12,6 +12,7 @@
 		BA11574C14E1342F003346BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11574B14E1342F003346BD /* main.m */; };
 		BA11575014E1342F003346BD /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA11574F14E1342F003346BD /* Test.1 */; };
 		BA1681CD14E136F300D35123 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1681CC14E136F300D35123 /* MyClass.m */; };
+		BA1683B314E213A800C915CF /* Why Y.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1683B214E213A800C915CF /* Why Y.m */; };
 		BA47C9D914E2125200D71F1B /* haha.m in Sources */ = {isa = PBXBuildFile; fileRef = BA47C9D814E2125200D71F1B /* haha.m */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,8 @@
 		BA1681CB14E136F300D35123 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		BA1681CC14E136F300D35123 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		BA1681D914E13DF800D35123 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		BA1683B114E213A800C915CF /* Why Y.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Why Y.h"; sourceTree = "<group>"; };
+		BA1683B214E213A800C915CF /* Why Y.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Why Y.m"; sourceTree = "<group>"; };
 		BA47C9D714E2125200D71F1B /* haha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = haha.h; path = ../haha.h; sourceTree = "<group>"; };
 		BA47C9D814E2125200D71F1B /* haha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = haha.m; path = ../haha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +98,8 @@
 				BA1681D914E13DF800D35123 /* Property List.plist */,
 				BA106E4314E2130000F302FF /* showShow.h */,
 				BA106E4414E2130000F302FF /* showShow.m */,
+				BA1683B114E213A800C915CF /* Why Y.h */,
+				BA1683B214E213A800C915CF /* Why Y.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				BA1681CD14E136F300D35123 /* MyClass.m in Sources */,
 				BA47C9D914E2125200D71F1B /* haha.m in Sources */,
 				BA106E4514E2130000F302FF /* showShow.m in Sources */,
+				BA1683B314E213A800C915CF /* Why Y.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
