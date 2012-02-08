@@ -11,6 +11,9 @@
 		BA11574C14E1342F003346BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11574B14E1342F003346BD /* main.m */; };
 		BA11575014E1342F003346BD /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA11574F14E1342F003346BD /* Test.1 */; };
 		BA1681CD14E136F300D35123 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1681CC14E136F300D35123 /* MyClass.m */; };
+		BAB2EB4814E2104A0074C5C9 /* MyClass2.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2EB4714E2104A0074C5C9 /* MyClass2.m */; };
+		BAB2EB4C14E210630074C5C9 /* MyClass3.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2EB4B14E210630074C5C9 /* MyClass3.m */; };
+		BAB2EB4F14E210730074C5C9 /* MyClass5.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB2EB4E14E210730074C5C9 /* MyClass5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,12 @@
 		BA1681CB14E136F300D35123 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		BA1681CC14E136F300D35123 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		BA1681D914E13DF800D35123 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		BAB2EB4614E2104A0074C5C9 /* MyClass2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass2.h; sourceTree = "<group>"; };
+		BAB2EB4714E2104A0074C5C9 /* MyClass2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass2.m; sourceTree = "<group>"; };
+		BAB2EB4A14E210630074C5C9 /* MyClass3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass3.h; sourceTree = "<group>"; };
+		BAB2EB4B14E210630074C5C9 /* MyClass3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass3.m; sourceTree = "<group>"; };
+		BAB2EB4D14E210730074C5C9 /* MyClass5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass5.h; sourceTree = "<group>"; };
+		BAB2EB4E14E210730074C5C9 /* MyClass5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass5.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				BA1681CC14E136F300D35123 /* MyClass.m */,
 				BA11576814E13A67003346BD /* Protocol.h */,
 				BA1681D914E13DF800D35123 /* Property List.plist */,
+				BAB2EB4614E2104A0074C5C9 /* MyClass2.h */,
+				BAB2EB4A14E210630074C5C9 /* MyClass3.h */,
+				BAB2EB4D14E210730074C5C9 /* MyClass5.h */,
+				BAB2EB4E14E210730074C5C9 /* MyClass5.m */,
+				BAB2EB4B14E210630074C5C9 /* MyClass3.m */,
+				BAB2EB4714E2104A0074C5C9 /* MyClass2.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -149,6 +164,9 @@
 			files = (
 				BA11574C14E1342F003346BD /* main.m in Sources */,
 				BA1681CD14E136F300D35123 /* MyClass.m in Sources */,
+				BAB2EB4814E2104A0074C5C9 /* MyClass2.m in Sources */,
+				BAB2EB4C14E210630074C5C9 /* MyClass3.m in Sources */,
+				BAB2EB4F14E210730074C5C9 /* MyClass5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
