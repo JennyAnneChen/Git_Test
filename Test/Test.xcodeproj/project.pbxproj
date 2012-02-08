@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA106E4514E2130000F302FF /* showShow.m in Sources */ = {isa = PBXBuildFile; fileRef = BA106E4414E2130000F302FF /* showShow.m */; };
 		BA11574914E1342F003346BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA11574814E1342F003346BD /* Foundation.framework */; };
 		BA11574C14E1342F003346BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA11574B14E1342F003346BD /* main.m */; };
 		BA11575014E1342F003346BD /* Test.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BA11574F14E1342F003346BD /* Test.1 */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA106E4314E2130000F302FF /* showShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showShow.h; sourceTree = "<group>"; };
+		BA106E4414E2130000F302FF /* showShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showShow.m; sourceTree = "<group>"; };
 		BA11574414E1342F003346BD /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA11574814E1342F003346BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BA11574B14E1342F003346BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,8 +40,8 @@
 		BA1681CB14E136F300D35123 /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		BA1681CC14E136F300D35123 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		BA1681D914E13DF800D35123 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
-		BA47C9D714E2125200D71F1B /* haha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = haha.h; sourceTree = "<group>"; };
-		BA47C9D814E2125200D71F1B /* haha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = haha.m; sourceTree = "<group>"; };
+		BA47C9D714E2125200D71F1B /* haha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = haha.h; path = ../haha.h; sourceTree = "<group>"; };
+		BA47C9D814E2125200D71F1B /* haha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = haha.m; path = ../haha.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,6 @@
 		BA11573914E1342F003346BD = {
 			isa = PBXGroup;
 			children = (
-				BA47C9D714E2125200D71F1B /* haha.h */,
-				BA47C9D814E2125200D71F1B /* haha.m */,
 				BA11574A14E1342F003346BD /* Test */,
 				BA11574714E1342F003346BD /* Frameworks */,
 				BA11574514E1342F003346BD /* Products */,
@@ -83,6 +84,8 @@
 		BA11574A14E1342F003346BD /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				BA47C9D714E2125200D71F1B /* haha.h */,
+				BA47C9D814E2125200D71F1B /* haha.m */,
 				BA11574B14E1342F003346BD /* main.m */,
 				BA11574F14E1342F003346BD /* Test.1 */,
 				BA11574D14E1342F003346BD /* Supporting Files */,
@@ -90,12 +93,8 @@
 				BA1681CC14E136F300D35123 /* MyClass.m */,
 				BA11576814E13A67003346BD /* Protocol.h */,
 				BA1681D914E13DF800D35123 /* Property List.plist */,
-				BAB2EB4614E2104A0074C5C9 /* MyClass2.h */,
-				BAB2EB4A14E210630074C5C9 /* MyClass3.h */,
-				BAB2EB4D14E210730074C5C9 /* MyClass5.h */,
-				BAB2EB4E14E210730074C5C9 /* MyClass5.m */,
-				BAB2EB4B14E210630074C5C9 /* MyClass3.m */,
-				BAB2EB4714E2104A0074C5C9 /* MyClass2.m */,
+				BA106E4314E2130000F302FF /* showShow.h */,
+				BA106E4414E2130000F302FF /* showShow.m */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -161,6 +160,7 @@
 				BA11574C14E1342F003346BD /* main.m in Sources */,
 				BA1681CD14E136F300D35123 /* MyClass.m in Sources */,
 				BA47C9D914E2125200D71F1B /* haha.m in Sources */,
+				BA106E4514E2130000F302FF /* showShow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
